@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body {
-    background: #2299ef;
+    background: #40444b;
     font: normal 1.3em arial;
 }
 
@@ -17,6 +17,18 @@ section {
     padding: 10px;
     border-radius: 10px;
     box-shadow: 3px 3px 5px #00000057;
+}
+
+div {
+    text-align: center;
+    padding: 8px;
+}
+
+div#imagem > img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin: auto;
 }
 
 footer {
